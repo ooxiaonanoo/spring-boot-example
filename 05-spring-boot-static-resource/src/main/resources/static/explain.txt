@@ -1,0 +1,3 @@
+Spring Boot 访问静态资源
+1. 从classpath/static目录(注意目录名称必须是static)
+2. ServletContext根目录下(src/main/webapp目录名称必须要webapp)
