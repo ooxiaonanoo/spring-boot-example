@@ -11,5 +11,11 @@
     <li>1. 从classpath/static目录(注意目录名称必须是static)</li>
     <li>2. ServletContext根目录下(src/main/webapp目录名称必须要webapp) <b style="color: red">当前访问方式</b></li>
 </ul>
+<hr/>
+<h4>注意：解决IDEA多模块时，访问不到子模块的页面资源</h4>
+<ul>
+    <li>原因：当IDEA项目为多模块的时候，启动子模块项目，发现无论如何都访问不到前端的网页资源时，那是因为项目启动时，默认的路径只到父模块就没了</li>
+    <li>解决方法：只需要在子模块启动设置中，添加以子模块目录启动即可访问到前端资源(Environment -> Working directory中设置 $MODULE_DIR$或$MODULE_WORKING_DIR$ 即可访问到资源)</li>
+</ul>
 </body>
 </html>
