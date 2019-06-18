@@ -21,6 +21,7 @@
         <module>05-spring-boot-static-resource</module>
         <module>06-spring-boot-file-upload</module>
         <module>07-spring-boot-view-jsp</module>
+        <module>08-spring-boot-view-freemarker</module>
     </modules>
 
     <properties>
