@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ViewFreemarkerApplication {
+public class ViewThymeleafApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ViewFreemarkerApplication.class, args);
+        SpringApplication.run(ViewThymeleafApplication.class, args);
     }
 
 }

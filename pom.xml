@@ -22,6 +22,7 @@
         <module>06-spring-boot-file-upload</module>
         <module>07-spring-boot-view-jsp</module>
         <module>08-spring-boot-view-freemarker</module>
+        <module>09-spring-boot-view-thymeleaf</module>
     </modules>
 
     <properties>

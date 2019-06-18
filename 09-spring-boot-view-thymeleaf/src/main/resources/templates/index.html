@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf 入门</title>
+</head>
+<body>
+<span th:text="Hello"></span>
+<hr/>
+
+<h4>Thymeleaf 常用语法 </h4>
+<span>1.th:text 在页面中输出值</span><br/>
+例子：<span th:text="${msg}"></span>
+<hr/>
+
+<span>2.th:value 可以将一个值放入到 input 标签的 value 中</span><br/>
+例子：<input type="text" name="username" th:value="${msg}"/>
+<hr/>
+
+<a href="https://www.cnblogs.com/hjwublog/p/5051732.html" target="_blank">....更多语法标签参考</a>
+<img th:src="@{thymeleaf.jpg}" class="content"/>
+
+
+</body>
+</html>

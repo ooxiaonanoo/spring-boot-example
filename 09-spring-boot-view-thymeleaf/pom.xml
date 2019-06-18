@@ -12,9 +12,20 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.holdsis</groupId>
-    <artifactId>08-spring-boot-view-freemarker</artifactId>
+    <artifactId>09-spring-boot-view-thymeleaf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+
+    <properties>
+        <!--
+            解决Thymeleaf语法严谨问题
+            1.按html严谨的语法编写
+            2.Thymeleaf.jar:更新为 3.0 以上的版本/thymeleaf-layout-dialect.jar:更新为 2.0 以上的版本
+         -->
+        <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.0.4</thymeleaf-layout-dialect.version>
+    </properties>
 
 
     <dependencies>
@@ -24,10 +35,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- freemarker启动器 -->
+        <!-- thymeleaf启动器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
 
