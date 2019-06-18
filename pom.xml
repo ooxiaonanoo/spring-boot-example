@@ -20,6 +20,7 @@
         <module>04-spring-boot-listener</module>
         <module>05-spring-boot-static-resource</module>
         <module>06-spring-boot-file-upload</module>
+        <module>07-spring-boot-view-jsp</module>
     </modules>
 
     <properties>
